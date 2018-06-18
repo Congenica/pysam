@@ -414,9 +414,9 @@ Operating System :: MacOS
 """
     
 metadata = {
-    'name': "pysam",
+    'name': "pysam-congenica",
     'version': get_pysam_version(),
-    'description': "pysam",
+    'description': "pysam congenica fork",
     'long_description': __doc__,
     'author': "Andreas Heger",
     'author_email': "andreas.heger@gmail.com",

@@ -426,6 +426,7 @@ metadata = {
     'url': "https://github.com/pysam-developers/pysam",
     'packages': package_list,
     'install_requires': ['cython (>=0.21)'],
+    'setup_requires': ['cython (>=0.21)'],
     'requires': ['cython (>=0.21)'],
     'ext_modules': [Extension(**opts) for opts in modules],
     'cmdclass': cmdclass,
